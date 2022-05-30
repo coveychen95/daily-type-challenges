@@ -1,0 +1,11 @@
+{
+  "name": "type-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:coveychen95/type-challenges.git",
+  "author": "coveychen95 <coveychen95@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  }
+}
