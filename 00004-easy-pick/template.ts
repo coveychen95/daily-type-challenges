@@ -9,6 +9,8 @@ type MyPick<T, K extends keyof T> = {
 // - https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html#handbook-content
 // 4. 看看 keyof 在不在里面 lookup
 // - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-1.html#keyof-and-lookup-types
+// 5. extends 类型约束
+// - https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints
 
 // For example
 
