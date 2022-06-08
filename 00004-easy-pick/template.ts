@@ -1,5 +1,14 @@
-type MyPick<T, K extends keyof T> = { [P in K]: T[P]; }
+type MyPick<T, K extends keyof T> = {
+  [P in K]: T[P]
+}
 
+// 1. 返回一个对象
+// 2. 遍历 forEach  mapped
+// - https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#handbook-content
+// 3. toDo[key]取值 indexed
+// - https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html#handbook-content
+// 4. 看看 keyof 在不在里面 lookup
+// - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-1.html#keyof-and-lookup-types
 
 // For example
 
