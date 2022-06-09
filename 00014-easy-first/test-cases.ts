@@ -1,5 +1,3 @@
-type First<T extends any[]> = any
-
 import type { Equal, Expect } from '@type-challenges/utils'
 
 type cases = [
