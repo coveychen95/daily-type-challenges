@@ -6,3 +6,7 @@ type DeepReadonly<T> = {
     : DeepReadonly<T[K]>
 }
 
+
+// type A = keyof 'a' extends never ? true : false // false
+// type B = keyof {} extends never ? true : false // true
+// type C = keyof {} // never
