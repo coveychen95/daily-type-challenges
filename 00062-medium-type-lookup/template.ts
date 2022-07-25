@@ -1,5 +1,5 @@
 // 1. 遍历联合类型 union
-//    keyof
+//    extends
 // 2. 提取其中 union 一个
 //    extends ? U : never
 
