@@ -1,0 +1,1 @@
+type TrimLeft<S> = any
